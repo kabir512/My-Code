@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QUESTIONS</title>
+        <link rel="stylesheet" href="index.css" />
+
+        <!-- QUESTION NO 1 -->
+        <h1>Current Date:</h1>
+        <p id="currentDate"></p>
+        <hr>
+
+        <!-- QUESTION NO 2 -->
+        <h1>Birthday Calculator</h1>
+        <p>Enter your birthdate</p>
+        <input type="date" id="birth">
+        <button id="calculate">Calculate Age</button>
+        <p1 id="result 1"></p1>
+        <hr>
+
+        <!-- QUESTION NO 4 -->
+        <h1>Days Until Future Date</h1>
+        <p>Enter a future date to calculate the number of days until then:</p>
+        <input type="date" id="futureDate 1" />
+        <button onclick="calculateDaysUntilFutureDate()">Calculate</button>
+        <p1 id="result 2"></p1>
+        <hr>
+
+
+        <!-- QUESTION NO 5 -->
+        <h1>Weekend Checker</h1>
+        <p>Enter a date to check if it's a weekend:</p>
+        <input type="date" id="inputDate" />
+        <button onclick="checkWeekend()">Check</button>
+        <p1 id="result 3"></p1>
+        <hr>
+
+
+        <!-- QUESTION NO 6 -->
+        <h1>Countdown Timer</h1>
+        <p>Enter a future date to start the countdown:</p>
+        <input type="datetime-local" id="futureDate"/>
+        <button onclick="startCountdown()">Start Countdown</button>
+        <div1 id="countdown"></div1>
+        <hr>
+
+
+        <!-- QUESTION NO 7 -->
+        <h1>Season Checker</h1>
+        <p>Enter a date to check the season:</p>
+        <input type="date" id="input" />
+        <button onclick="checkSeason()">Check</button>
+        <p1 id="result 4"></p1>
+        <hr>
+
+        <!-- QUESTION NO 8 -->
+        <h1>Age Calculator</h1>
+        <p>Enter Two Dates</p>
+        <b><label for="birthdate">Birth Date:</label></b>
+        <input type="date" id="birthdate" />
+        <br>
+        <b><label for="futuredate">Future Date:</label></b>
+        <input type="date" id="futuredate" />
+        <br>
+        <button onclick="calculateAge()">Calculate Age</button>
+        <p1 id="result 5"></p1>
+        <hr>
+
+
+        <!-- QUESTION NO 9 -->
+        <h1>Days Between Dates Calculator</h1>
+        <p>Enter two dates to calculate the number of days between them:</p>
+        <b><label for="startDate">Start Date:</label></b>
+        <input type="date" id="startDate" />
+        <br>
+        <b><label for="endDate">End Date:</label></b>
+        <input type="date" id="endDate" />
+        <br>
+        <button onclick="calculateDays()">Calculate</button>
+        <p1 id="result 6"></p1>
+        <hr>
+
+
+        <!-- QUESTION NO 10 -->
+        <h1>Working Days Calculator</h1>
+        <p>Enter two dates to calculate the number of working days between them (excluding weekends):</p>
+        <p>Enter only Past Dates</p>
+        <b><label for="startDate">Start Date:</label></b>
+        <input type="date" id="start" />
+        <br>
+        <b><label for="endDate">End Date:</label></b>
+        <input type="date" id="end"/>
+        <br>
+        <button onclick="calculateWorkingDays()">Calculate</button>
+        <p1 id="result 7"></p1>
+        <hr>
+
+</body>
+
+</html>
+
+</body>
+<script src="index.js"></script>
+
+</html>

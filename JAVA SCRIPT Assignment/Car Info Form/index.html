@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Car Info Form</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>CAR INFORMATION FORM</h1>
+        <hr>
+        <P>Car Name</P>
+        <input type="text" id="name" placeholder="Enter your car name"/> 
+        <P>Car Color</P>
+        <input type="text" id="color" placeholder="Enter your car color"/>
+        <P>Car Model</P>
+        <input type="text" id="model" placeholder="Enter your car model"/>
+        <P>Car Milage</P>
+        <input type="number" id="milage" placeholder="Km/Hour"/>
+        <P>Car Price</P>
+        <input type="number" id="price" placeholder="Rs /-"/>
+        <P>Car Image</P>
+        <input type="file" id="image"/>
+        <div>
+        <button type="button" id="submitBtn" onclick="button()">Update</button>
+        </div>
+    
+    <div class="carInfo" id="carInfo">
+        <!-- Information will be displayed here -->
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
